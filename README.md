@@ -8,6 +8,7 @@ connects to mqtt broker
 - rgb
 - hsl
 - out
+
 `device/location/rgb/n`      
 `device/location/hsl/n` 
 
@@ -23,7 +24,7 @@ or n is * to address all leddstrips
 n is switch number 0 to max 5
 
 ### payload
-``
+```json
 {
     "location":"testdev",
     "data":{
@@ -33,4 +34,4 @@ n is switch number 0 to max 5
         "lux":106
     }
 }
-``
+```
