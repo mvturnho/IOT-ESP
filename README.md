@@ -5,7 +5,7 @@ The device can be configured by pressing the button on pin D1 when booting up th
 It is then configured as an access point with SSID SETUP_ESP and password setupesp.
 When connected you can direct your browser to 192.168.4.1.
 
-![ScreenShot](https://raw.github.com/mvturnho/IOT-ESP/master/docs/images/iot-dev.png)
+[![](docs/images/iot-dev.png)]
 
 ## subscribes to
 - led
