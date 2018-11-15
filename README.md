@@ -1,7 +1,11 @@
 # IOT-ESP
 IOT home automation with esp8266
 
-connects to mqtt broker
+The device can be configured by pressing the button on pin D1 when booting up the device.
+It is then configured as an access point with SSID SETUP_ESP and password setupesp.
+When connected you can direct your browser to 192.168.4.1.
+
+
 
 ## subscribes to
 - led
@@ -21,9 +25,10 @@ or n is * to address all leddstrips
 
 `device/location/switch/n`
 
-n is switch number 0 to max 5
+n is switch number 0 to max 4
+D3, D5, D6 , D7 are the pins for switches or motion detectors.
 
-### payload
+### payload for json sensordata
 ```json
 {
     "location":"testdev",
